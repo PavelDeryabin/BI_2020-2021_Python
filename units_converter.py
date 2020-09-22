@@ -12,3 +12,5 @@ elif measure == "F":
     print("Results: " + str(round(((value - 32) * 5 / 9), 2)) + "C, " + str(round((((value - 32) * 5 / 9) + 273.15), 2)) + "K")
 else:
     print("Please provide correct units measure and try again")
+
+# another edit for conflict
