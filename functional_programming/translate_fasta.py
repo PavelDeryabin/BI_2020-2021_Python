@@ -1,6 +1,6 @@
 from Bio.SeqIO import parse
 from Bio.Seq import transcribe
-from Bio.Seq import transl
+from Bio.Seq import translate
 
 path_to_fasta = input('Indicate pathway to the fasta file: ')
 codons_table = input('Indicate preferable codon translation table (default is \"Standard\",\ndo nothing and press Enter if \"Standard\" is required): ')
